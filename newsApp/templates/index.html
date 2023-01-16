@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Главная страница{% endblock %}
+
+
+{% block content %}
+<div class="container pt-5 pb-5">
+    <h1>Главная страница</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi debitis error minima nesciunt officiis saepe vero. Ab accusamus aperiam esse, et fugiat harum in natus, quaerat, sunt temporibus voluptate.
+    </p>
+    <div class="w-100">
+        <img style="width: 100%;" src="{% static './img/main.jpg' %}" alt="">
+    </div>
+</div>
+{% endblock %}
